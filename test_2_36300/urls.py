@@ -37,6 +37,12 @@ urlpatterns = [
     path("api/v1/", include("four.api.v1.urls")),
     path("api/v1/", include("one.api.v1.urls")),
     path("api/v1/", include("two.api.v1.urls")),
+    path("five/", include("five.urls")),
+    path("api/v1/", include("five_v2.api.v1.urls")),
+    path("four/", include("four.urls")),
+    path("one/", include("one.urls")),
+    path("api/v1/", include("three_v2.api.v1.urls")),
+    path("two/", include("two.urls")),
 ]
 
 admin.site.site_header = "test-2"

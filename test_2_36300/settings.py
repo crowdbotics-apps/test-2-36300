@@ -73,6 +73,8 @@ INSTALLED_APPS = [
     "four",
     "one",
     "two",
+    "five_v2",
+    "three_v2",
 ]
 LOCAL_APPS = [
     "home",
